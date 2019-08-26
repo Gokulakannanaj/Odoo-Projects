@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="base_import assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <!--Library Files-->
+                <script type="text/javascript" src="/clockpicker/static/src/lib/jquery-clockpicker.min.js"></script>
+                <link rel="stylesheet" href="/clockpicker/static/src/lib/jquery-clockpicker.min.css"/>
+                <!--Clock Picker Js(Odoo) File-->
+                <script type="text/javascript" src="/clockpicker/static/src/js/clock_picker_widget.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
