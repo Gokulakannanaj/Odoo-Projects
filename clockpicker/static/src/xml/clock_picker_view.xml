@@ -1,0 +1,16 @@
+<template>
+    <!--Time Picker Widget-->
+    <t t-name="OdooClockPicker">
+        <div class="oe_field_clockpicker">
+            <t t-if="widget.mode === 'readonly'">
+                <span class="oe_field_content"/>
+            </t>
+            <t t-if="widget.mode !== 'readonly'">
+                <div class="o_input_dropdown">
+                    <input type="text" class="clockpicker clockpicker_val" value=""/>
+                    <span class="o_dropdown_button" draggable="false"/>
+                </div>
+            </t>
+        </div>
+    </t>
+</template>
