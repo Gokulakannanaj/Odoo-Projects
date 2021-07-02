@@ -1,6 +1,6 @@
 {
     'name': "Clock Timepicker",
-    'version': '1.0',
+    'version': '11.0',
     'summary': """A free Plugin to Select Time using Clock Timepicker""",
     'category': 'Tools',
     'author': "Gokulakrishnan Murugesan",
